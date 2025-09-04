@@ -1,1 +1,3 @@
-Введите ваше имя: Введите HP: Введите Мана: git, у тебя HP = 0, Мана = 0.00
+     gcc dialogue.c -o dialogue
+          ./dialogue
+         
