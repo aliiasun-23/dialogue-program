@@ -1,20 +1,23 @@
-#include <stdio.h>
+     #include <stdio.h>
 
-int main() {
-    char name[50];
-    int hp;
-    float mana;
+     int main() {
+         char name[50];
+         int hp;
+         float mana;
 
-    printf("Введите имя студента: ");
-    scanf("%s", name);
+         // Запрос имени студента
+         printf("Введите ваше имя: ");
+         scanf("%s", name);
 
-    printf("Введите HP: ");
-    scanf("%d", &hp);
+         // Запрос значений HP и Мана
+         printf("Введите HP: ");
+         scanf("%d", &hp);
+         printf("Введите Мана: ");
+         scanf("%f", &mana);
 
-    printf("Введите Ману: ");
-    scanf("%f", &mana);
+         // Вывод сообщения
+         printf("%s, у тебя HP = %d, Мана = %.2f\n", name, hp, mana);
 
-    printf("%s, у тебя HP = %d, Мана = %.2f\n", name, hp, mana);
-
-    return 0;
-}
+         return 0;
+     }
+     
