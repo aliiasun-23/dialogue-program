@@ -1,7 +1,1 @@
-     gcc dialogue.c -o dialogue
-          ./dialogue
-          ./dialogue > input_output.txt
-          git add dialogue.c input_output.txt
-          git commit -m "Добавлен файл dialogue.c и output в input_output.txt"
-          git push origin main
-     
+Введите ваше имя: Введите HP: Введите Мана: git, у тебя HP = 0, Мана = 0.00
